@@ -8,3 +8,13 @@ D:\WFA3\WFA3\bin\Debug\WFA3.exe
 D:\WFA3\WFA3\bin\Debug\WFA3.pdb
 D:\WFA3\WFA3\obj\Debug\WFA3.exe
 D:\WFA3\WFA3\obj\Debug\WFA3.pdb
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\bin\Debug\WFA3.exe.config
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\bin\Debug\WFA3.exe
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\bin\Debug\WFA3.pdb
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\obj\Debug\WFA3.csprojAssemblyReference.cache
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\obj\Debug\WFA3.home.resources
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\obj\Debug\WFA3.Properties.Resources.resources
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\obj\Debug\WFA3.csproj.GenerateResource.cache
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\obj\Debug\WFA3.csproj.CoreCompileInputs.cache
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\obj\Debug\WFA3.exe
+D:\WFA3\BITM-ASSIGNMENTS\WFA3\obj\Debug\WFA3.pdb

@@ -26,6 +26,21 @@ namespace WFA3
 
         }
 
-      
+        private void nameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox.Text == "")
+            {
+                MessageBox.Show("Select items");
+            }
+            else
+            {
+                MessageBox.Show(comboBox.Text + " is selected");
+            }
+        }
     }
 }
