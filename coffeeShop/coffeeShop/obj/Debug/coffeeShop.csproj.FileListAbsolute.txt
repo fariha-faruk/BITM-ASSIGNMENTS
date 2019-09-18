@@ -1,10 +1,1 @@
 C:\Users\Faariha-PC\Documents\Visual Studio 2013\Projects\coffeeShop\coffeeShop\bin\Debug\coffeeShop.exe.config
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\bin\Debug\coffeeShop.exe.config
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\bin\Debug\coffeeShop.exe
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\bin\Debug\coffeeShop.pdb
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\obj\Debug\coffeeShop.CoffeeShop.resources
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\obj\Debug\coffeeShop.Properties.Resources.resources
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\obj\Debug\coffeeShop.csproj.GenerateResource.cache
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\obj\Debug\coffeeShop.csproj.CoreCompileInputs.cache
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\obj\Debug\coffeeShop.exe
-F:\ASSIGNMENTS\BITM-ASSIGNMENTS\coffeeShop\coffeeShop\obj\Debug\coffeeShop.pdb
