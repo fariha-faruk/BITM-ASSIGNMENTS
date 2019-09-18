@@ -39,8 +39,11 @@
             this.addressTextBox = new System.Windows.Forms.TextBox();
             this.contactTextBox = new System.Windows.Forms.TextBox();
             this.nameTextBox = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox = new System.Windows.Forms.RichTextBox();
             this.customerInfoGroupBox = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.addButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -81,7 +84,7 @@
             // order
             // 
             this.order.AutoSize = true;
-            this.order.Location = new System.Drawing.Point(18, 201);
+            this.order.Location = new System.Drawing.Point(18, 200);
             this.order.Name = "order";
             this.order.Size = new System.Drawing.Size(33, 13);
             this.order.TabIndex = 3;
@@ -98,9 +101,10 @@
             // 
             // saveButton
             // 
+            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveButton.Location = new System.Drawing.Point(216, 293);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(75, 23);
+            this.saveButton.Size = new System.Drawing.Size(75, 30);
             this.saveButton.TabIndex = 6;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
@@ -148,16 +152,19 @@
             this.nameTextBox.Size = new System.Drawing.Size(121, 20);
             this.nameTextBox.TabIndex = 11;
             // 
-            // richTextBox1
+            // richTextBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(430, 66);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(250, 332);
-            this.richTextBox1.TabIndex = 12;
-            this.richTextBox1.Text = "";
+            this.richTextBox.Location = new System.Drawing.Point(430, 66);
+            this.richTextBox.Name = "richTextBox";
+            this.richTextBox.Size = new System.Drawing.Size(250, 332);
+            this.richTextBox.TabIndex = 12;
+            this.richTextBox.Text = "";
             // 
             // customerInfoGroupBox
             // 
+            this.customerInfoGroupBox.Controls.Add(this.label8);
+            this.customerInfoGroupBox.Controls.Add(this.label7);
+            this.customerInfoGroupBox.Controls.Add(this.addButton);
             this.customerInfoGroupBox.Controls.Add(this.addressTextBox);
             this.customerInfoGroupBox.Controls.Add(this.customerName);
             this.customerInfoGroupBox.Controls.Add(this.nameTextBox);
@@ -175,6 +182,41 @@
             this.customerInfoGroupBox.TabIndex = 13;
             this.customerInfoGroupBox.TabStop = false;
             this.customerInfoGroupBox.Text = "Customer Information";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(297, 231);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(21, 25);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "*";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(297, 195);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(21, 25);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "*";
+            // 
+            // addButton
+            // 
+            this.addButton.AccessibleName = "addButton";
+            this.addButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.addButton.Location = new System.Drawing.Point(114, 293);
+            this.addButton.Name = "addButton";
+            this.addButton.Size = new System.Drawing.Size(75, 30);
+            this.addButton.TabIndex = 12;
+            this.addButton.Text = "Add";
+            this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -236,7 +278,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.customerInfoGroupBox);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTextBox);
             this.Name = "CoffeeShop";
             this.Text = "Coffee Shop";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -260,7 +302,7 @@
         private System.Windows.Forms.TextBox addressTextBox;
         private System.Windows.Forms.TextBox contactTextBox;
         private System.Windows.Forms.TextBox nameTextBox;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox;
         private System.Windows.Forms.GroupBox customerInfoGroupBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -268,7 +310,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-
+        private System.Windows.Forms.Button addButton;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
     }
 }
 
